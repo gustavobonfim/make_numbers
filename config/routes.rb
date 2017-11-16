@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
+  get '/error_page_controller', to: 'error_page_controller#pages'
+
   namespace :make_numbers do
     get 'cnpj'
     get 'cpf'
