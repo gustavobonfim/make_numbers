@@ -4,8 +4,8 @@ class PagesController < ApplicationController
 
   end
 
-  def error_page_controller
-
+  def about
+    
   end
 
   def error_route

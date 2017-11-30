@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
-  get '/error_page_controller', to: 'error_page_controller#pages'
+  get '/about', to: 'about#about'
 
   match "/404", to: 'errors#not_found', via: :all
   match "/422", to: 'errors#unnacceptable', via: :all
